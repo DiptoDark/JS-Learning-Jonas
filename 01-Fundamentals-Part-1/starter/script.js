@@ -26,7 +26,7 @@ x = y = 25-19;
 */
 
 
-
+/*
 //Assignment-1//
 let  population;
 
@@ -51,6 +51,40 @@ let avgPopulation = 300000;
 console.log (population < avgPopulation);
 
 let description = "'Portugal is in Europe, and its 11 million people speak portuguese'";
+
+*/
+
+/*
+ const age = 19;
+ const isOldEnough = age >= 18;
+
+ if (isOldEnough) {
+    console.log( " Sejuti I love you");
+ } else {
+    console.log("Sejuti don't love me");
+ }
+ */
+
+ let markHeight = 1.69;
+ let johnHeight = 1.95;
+ let markMass = 78;
+ let johnMass = 92;
+
+ let markBMI = markMass / markHeight ** 2;
+ let johnBMI = johnMass / johnHeight **2;
+
+ if( markBMI > johnBMI) {
+    console.log( ` Mark's BMI ${markBMI} is higher than John's ${johnBMI}`)
+}
+else{
+    console.log( ` Mark's BMI ${markBMI} is less than John's ${johnBMI}`)
+    
+}
+
+ 
+
+ 
+
 
 
 
