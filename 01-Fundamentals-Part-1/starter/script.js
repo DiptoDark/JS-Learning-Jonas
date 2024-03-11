@@ -17,12 +17,12 @@ console.log(fName + "" + lname);
 let x = 10;
 x += 10;
 x++;
-x--;
+x--;ffff
 console.log(x);
 console.log( fName > lname);
 
 let x, y;
-x = y = 25-19;
+x = y = 25-19;rrr
 */
 
 
