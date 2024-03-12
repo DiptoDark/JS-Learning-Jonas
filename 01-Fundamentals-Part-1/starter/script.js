@@ -17,14 +17,13 @@ console.log(fName + "" + lname);
 let x = 10;
 x += 10;
 x++;
-x--;ffff
+x--;
 console.log(x);
 console.log( fName > lname);
 
 let x, y;
-x = y = 25-19;rrr
+x = y = 25-19;
 */
-
 
 /*
 //Assignment-1//
@@ -64,7 +63,7 @@ let description = "'Portugal is in Europe, and its 11 million people speak portu
     console.log("Sejuti don't love me");
  }
  */
-
+/*
  let markHeight = 1.69;
  let johnHeight = 1.95;
  let markMass = 78;
@@ -74,23 +73,52 @@ let description = "'Portugal is in Europe, and its 11 million people speak portu
  let johnBMI = johnMass / johnHeight **2;
 
  if( markBMI > johnBMI) {
-    console.log( ` Mark's BMI ${markBMI} is higher than John's ${johnBMI}`)
+    console.log( ` Mark's BMI ${markBMI} is higher than John's ${johnBMI}`);
 }
-else{
-    console.log( ` Mark's BMI ${markBMI} is less than John's ${johnBMI}`)
-    
+else {
+    console.log( ` Mark's BMI ${markBMI} is less than John's ${johnBMI}`);    
 }
 
- 
 
- 
+const inputYear = "1991";
+console.log(Number(inputYear));
 
+*/
+/*
 
+ let name = prompt("Name?");
+ console.log(name);
+if (name !== "dipto") console.log("You are dumb!");
+*/
 
+// const hasDriverLicense = true;
+// const hasGoodVision = true;
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
 
+// const shouldDrive = hasDriverLicense && hasGoodVision;
 
+// if(shouldDrive) {
+//    console.log("Pass");
+// }
+// else {
+//    console.log ("fail");
+// }
 
+const day = prompt("What is the day?");
 
+switch (day) {
+  case "Sunday":
+    console.log("Go to gym");
+    break;
+  case "Monday":
+    console.log("Sex day!");
+    console.log("Sex day!");
+    console.log("Sex day!");
+    break;
+  default:
+    console.log("Baals!");
+}
 
-
-
+const age = 19;
+age >= 18 ? console.log("Give me biri") : console.log("no biri");
