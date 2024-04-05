@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 /*function logger() {
   console.log("My name is dipto");
 }
@@ -99,13 +99,31 @@ function checkWinner(scoreDolphine, scorekoalas) {
 // return `$`
 // }
 
-const marik = {
-  firstName: "Marik",
-  lastName: "Miller",
-  height: 1.69,
-  weight: 78,
-  calBMI: function () {
-    return this.height * this.weight;
-  },
-};
-console.log(`$(this.firstName) + $(this.lastName)`);
+// const marik = {
+//   firstName: "Marik",
+//   lastName: "Miller",
+//   height: 1.69,
+//   weight: 78,
+//   calBMI: function () {
+//     this.bmi = this.height * this.weight;
+//     return this.bmi;
+//   }
+// };
+// console.log(`${}`);
+
+// for(let rep = 1; rep <= 10, rep ++){
+//   console.log('llll')
+// }
+
+let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+let tips = [];
+let total = [];
+
+for (let bill = 1; bill <= 10; bill++) {
+  let tip = bills <= 300 && bills >= 50 ? bills * 0.15 : bills * 0.2;
+  tips.push(tip);
+  console.log('tips');
+  console.log();
+  let test = 'tess';
+  let ab = 'tt';
+}
