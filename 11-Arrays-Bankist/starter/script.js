@@ -71,6 +71,60 @@ const currencies = new Map([
   ['GBP', 'Pound sterling'],
 ]);
 
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
+
+
+// let arr = ['a', 'b', 'c','d','e']
+
+// console.log(arr.slice(2));
+// console.log(arr.slice(2,4));
+// console.log(arr.slice(-2));
+// console.log(arr.slice(-1));
+// console.log(arr.slice(1,-2));
+
+// console.log(arr.splice(2));
+
+// console.log(arr.at(0));
+// console.log(arr.at(-1));
+
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+// for (const movement of movements) {
+//   if (movement >0){
+//     console.log(`You deposited ${movement}`);
+//   }else{
+//     console.log(`You withdrew ${movement}`);
+
+//   }
+// }
+
+// movements.forEach(function(movement){
+//   if (movement >0){
+//     console.log(`You deposited ${movement}`);
+//   }else{
+//     console.log(`You withdrew ${movement}`);
+
+//   }
+// });
+
+const euroToUsd = 1.1
+
+const movementsUsd = movements.map( mov => mov*euroToUsd)
+console.log(movementsUsd);
+
+const deposits = movements.filter(mov =>mov>0);
+console.log(movements);
+console.log(deposits);
+
+
+const withdraws = movements.filter(mov =>mov<0);
+console.log(movements);
+console.log(withdraws);
+
+const person ={
+  name: "dipto",
+  age: 24
+}
+
+'{"name": "dipto","age":24}'

@@ -1,0 +1,21 @@
+{
+  "workbench.colorTheme": "One Monokai",
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": true,
+  "workbench.statusBar.visible": true,
+  "editor.formatOnSave": true,
+
+  "workbench.colorCustomizations": {
+    "statusBar.noFolderBackground": "#333333"
+  },
+  "editor.fontSize": 16,
+
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
